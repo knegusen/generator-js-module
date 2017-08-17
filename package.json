@@ -1,0 +1,27 @@
+{
+  "name": "@knegusen/generator-js-module",
+  "version": "1.0.0",
+  "description": "Generator for creating js modules",
+  "files": [
+    "generators"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "jest generators/app/__tests__/"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "js",
+    "module"
+  ],
+  "author": "Dennis Axelsson",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^20.0.4",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^1.1.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.5.3"
+  }
+}
