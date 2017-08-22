@@ -6,6 +6,5 @@
   "extends": [
     "airbnb-base"
   ],
-  "parser": "babel-eslint",
-  "rules": {}
+  "parser": "babel-eslint"
 }

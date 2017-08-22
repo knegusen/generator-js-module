@@ -1,5 +1,3 @@
-/* eslint-disable import/prefer-default-export */
-
 import app from './app/app';
 
-export { app };
+export { app }; // eslint-disable-line import/prefer-default-export
