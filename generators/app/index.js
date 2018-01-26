@@ -34,7 +34,6 @@ module.exports = class extends Generator {
     this._copyFile('.gitignore');
     this._copyFile('.npmrc');
     this._copyFile('changelog.md');
-    this._copyFile('Jenkinsfile');
     this._copyFile('readme.md');
     this._copyFile('wallaby.js');
 
